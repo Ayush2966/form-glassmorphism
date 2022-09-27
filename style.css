@@ -1,0 +1,137 @@
+body {
+    background: linear-gradient(45deg, #4661fc, rgb(252, 31, 31), #b535ff);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+form {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 2.5vw;
+    height: 25vw;
+    border-radius: 1.5vw;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.3);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0.8vw);
+    box-shadow: 1.5vw 1.5vw 3.2vw -0.5vw rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+form p {
+    font-weight: 500;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 4.5vw;
+    text-shadow: 0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.2);
+}
+form a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 0.8vw;
+}
+form a:hover {
+    text-shadow: 0.2vw 0.2vw 0.5vw #000 40;
+}
+form a:active {
+    text-shadow: none;
+}
+form input {
+    background: transparent;
+    width: 17vw;
+    padding: 0.8vw;
+    margin-bottom: 1.5vw;
+    border: none;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.3);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.3);
+    border-radius: 450vw;
+    backdrop-filter: blur(5px);
+    box-shadow: 0.3vw 0.3vw 5vw rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 0.2vw 02vw 0.3vw rgba(0, 0, 0, 0.2);
+}
+form input:hover {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:  0.3vw 0.3vw 5vw 0.6vw rgba(0, 0, 0, 0.2);
+}
+form input[type="email"]:focus, form input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:  0.3vw 0.3vw 5vw 0.6vw rgba(0, 0, 0, 0.2);
+}
+form input[type="button"] {
+    margin-top: 0.5vw;
+    padding: 0.8vw 1.5vw;
+    height:4vw;
+    width: 12vw;
+    font-size: 1.2vw;
+}
+form input[type="button"]:hover {
+    cursor: pointer;
+}
+form input[type="button"]:active {
+    background: rgba(255, 255, 255, 0.2);
+}
+form:hover {
+    margin: 0.3vw;
+}
+::placeholder {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 0.2vw 0.2vw 0.3vw rgba(0, 0, 0, 0.4);
+}
+.drop {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(0.7vw);
+    border-radius: 0.7vw;
+    border-left: 0.1vw solid rgba(255, 255, 255, 0.3);
+    border-top: 0.1vw solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0.8vw 0.8vw 5vw -0.6vw rgba(0, 0, 0, 0.2);
+    position: absolute;
+    transition: all 0.2s ease;
+}
+.drop-1 {
+    height: 6.5vw;
+    width: 6.5vw;
+    top: -1.5vw;
+    left: -2.8vw;
+    z-index: -1;
+}
+.drop-2 {
+    height: 6.5vw;
+    width: 6.5vw;
+    bottom: -2.1vw;
+    right: -0.8vw;
+}
+.drop-3 {
+    height: 8vw;
+    width: 8vw;
+    bottom: 10vw;
+    right: -3.8vw;
+    z-index: -1;
+}
+.drop-4 {
+    height: 10vw;
+    width: 10vw;
+    top: -4.3vw;
+    right: -4.3vw;
+}
+.drop-5 {
+    height: 4.3vw;
+    width: 4.3vw;
+    bottom: 14.5vw;
+    left: 6.5vw;
+    z-index: -1;
+}
+a, input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
